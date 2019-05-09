@@ -26,14 +26,14 @@ class TOC extends Component {
             i = i + 1;
         }
 
-    return (
-      <nav>
-        <ul>
-          {lists}
-        </ul>
-      </nav>
-    );
-  }
+        return (
+        <nav>
+            <ul>
+            {lists}
+            </ul>
+        </nav>
+        );
+    }
 }
 
 export default TOC;
