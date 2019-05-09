@@ -11,6 +11,8 @@ class TOC extends Component {
         var lists = [];
         var data = this.props.data;
         var i=0;
+        // console.log(data);
+        // debugger;
         while(i < data.length) {
             lists.push(
                 <li key={data[i].id}>
