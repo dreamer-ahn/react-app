@@ -94,7 +94,9 @@ class App extends Component {
             });
           }.bind(this)} 
         ></TOC>
-        <Control onChangeMode={function(_mode) {
+        <Control 
+          selectedContentId={this.state.selected_content_id}
+          onChangeMode={function(_mode) {
           if(_mode === 'delete') {
             if(window.confirm('really?')) {
               var _contents = Array.from(this.state.contents);
